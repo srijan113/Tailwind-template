@@ -2,12 +2,15 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
-      colors:{
+      color: {
         primary:'#ff6363',
-        secondary:{
-          100:'#E2E2D5',
+        secondary: {
+          100:'#e2e2d5',
           200:'#888883',
         }
+      },
+      fontFamily: {
+        body: ['Open Sans','sans-serif']
       }
     },
   },
